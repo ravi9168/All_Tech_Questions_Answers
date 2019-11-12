@@ -1,0 +1,105 @@
+git init --> Initialize Local Git Repository
+
+git add<file>  ---->  Add File To Staging Area
+
+git status    --> For Status 
+
+git commit -->  Commit Changes In Staging Area
+
+git push -->  Push To Remote Repository
+
+
+git pull --> Pull The Latest From Remote Repository
+
+
+git clone --> Clone Into New Directory
+
+git config --global user.name 'ravi9168'
+
+
+git config --global user.email 'ravisavarapu@gmail.com'
+
+git rm --cached index.html --> Remove  index.html From Staging Area
+
+
+git add *.html -- > Add All HTML Files to Staging Area
+
+git add.  ---> Add All File To Staging Area
+ 
+ 
+git commit  --> It Enter Into  One Editor than Press  i key (insert mode )     After Remove The # symbol from Initial commit
+
+
+
+Than type  :wq for quit from Editor
+
+
+git commit -m "Changedd sff"  --> Skip the Editor and also add the comment   too
+
+
+
+clear ---> clean history
+ 
+ 
+ touch filename.ext  ---> Create the file 
+ 
+ 
+ 
+ 
+ touch .gitignor  --> It Create the gitignor file 
+ 
+ 
+ touch log.txt --> It Ctare log.txt
+ 
+ 
+ 
+ git branch  name_of_branch   --> Create new Branch
+ 
+ git branch  login
+ 
+ 
+ 
+ git merge banchname
+ 
+ git merge login
+ 
+ 
+  git remote   --> It Shows  Remote Repository 
+  
+  
+  git remote add origin  https://github.com/ravi9168/Classifieds.git
+  
+  
+  
+  
+  
+           
+
+  
+  
+  git push -u origin master
+  
+  
+  
+  git  clone  https://github.com/ravi9168/myapp.git
+  
+  
+  git log ---> Shows all commit History 
+  
+  git difftool  --> Shows the local changes to previous verion of the file
+  
+  
+  How to show your Git username
+  
+  The git config command
+  
+  ex: git config user.name
+  
+  How to show your Git config details
+  
+  The git config --list command
+  
+  Looking in your Git configuration file
+  
+  
+  

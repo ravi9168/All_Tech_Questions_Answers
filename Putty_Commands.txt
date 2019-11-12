@@ -1,0 +1,22 @@
+1) Copy the War file to   /home/ec2-user
+
+2) sudo service tomcat8 stop
+
+3) cd /var/lib/tomcat8/webapps/
+
+4)  ls -ltr
+
+5)  sudo mv BusinessMiniatures.war /home/ec2-user/oldWars/BusinessMiniatures_20181120
+
+6)  sudo rm -fr  BusinessMiniatures   --- > For Delete  BusinessMiniatures folder
+
+7)  sudo cp /home/ec2-user/BusinessMiniatures.war .
+
+8) sudo service tomcat8 start
+
+9) sudo tail -f /var/log/tomcat8/catalina.out
+
+
+
+
+https://www.youtube.com/watch?v=TB8FtMergyc

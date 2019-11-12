@@ -1,0 +1,16 @@
+
+For  Install java
+sudo add-apt-repository ppa:webupd8team/java 
+sudo apt-get update
+sudo apt-get install oracle-java8-installer
+
+
+For java path
+sudo gedit /etc/profile
+export JAVA_HOME=/usr/lib/jvm/java-8-oracle	
+
+
+For install eclipse
+
+sudo snap install --classic eclipse
+

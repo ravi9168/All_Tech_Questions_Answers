@@ -1,0 +1,32 @@
+ How to install bootstrap in angular 
+ 
+    npm install bootstrap --save
+	Then add depedency in styles in angular.json
+	
+	
+ GIt Push 
+       git push origin master --force
+https://getbootstrap.com/docs/4.3/assets/brand/bootstrap-solid.svg
+
+
+
+npm install ngx-pagination -–save 
+
+npm install @angular/flex-layout --save
+
+https://www.javacodegeeks.com/category/javascript/angular/page/2
+
+https://grokonez.com/aws/angular-4-amazon-s3-example-how-to-upload-file-to-s3-bucket
+
+https://www.djamware.com/
+
+https://grokonez.com/spring-framework-tutorial/spring-boot
+
+https://www.djamware.com/post/5d3332980707cc65eac46c7b/spring-boot-security-mongodb-angular-8-build-authentication
+
+https://tecadmin.net/tutorial/mongodb/update-document/
+
+db.products.insert({"prodName":"sample Produt","prodDesc":"Sample Product Desc","prodPrice": 300,"prodImage": " Sample.jpg"})
+
+https://tecadmin.net/tutorial/mongodb/query-document/
+

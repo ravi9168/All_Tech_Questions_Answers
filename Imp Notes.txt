@@ -1,0 +1,37 @@
+https://docs.google.com/spreadsheets/d/1lN8Re7qcJ-tq_3ITuA_F6nxCfjT-W0ryHCIx6uvxZH8/edit#gid=1120412195
+
+
+https://demo.androidhive.info/firebase/notifications/?apikey=AAAAuwHjTYI%3AAPA91bEWI5-RWxlU_I5paf8Pzxe1Sy-YP6GhX2f8CJhvqF2AFqLx9UvLN2a25BQtsVmMCIZAL_HiFL--AjEkUrCTAQCKIwGqholYNrc6zhkbmtuRx8f2CX3Aruv7WoFdxvnv9aFkYAe7&regId=dbb2fxcsR_s%3AAPA91bG6Xp0iuNKxe4rZVfKT42wJ3fWQuQxVmVFSitDaCc77ZSUZ16wWE9yV7ngfRqwLivZoOAQQdZdS9WViNQjyoZ02K1zGTOMW-g0D7IKjOogpmTNZ4VDusNjKc2peVF0qesemTQ9l&title=asdsadasd&message=rtreterwtrew&push_type=individual
+
+sudhapoornaa@gmail.com
+Laptop14$
+
+Web-based MongoDB admin interface, written with Node.js and express
+https://github.com/mongo-express/mongo-express
+mongo-express -u admin -p pass -d BusinessMiniature
+
+
+ 1)C:\Users\macsof\AppData\Roaming\npm\node_modules\mongo-express>node app.js
+ 2) mongo-express -u admin -p pass -d BusinessMiniature -H ec2-18-219-223-156.us-east-2.compute.amazonaws.com -P 27017
+
+
+  
+
+	public final static String API_URL_FCM = "https://fcm.googleapis.com/fcm/send";
+	
+	 public final static String AUTH_KEY_FCM_MYBUSINESS = "AAAAuwHjTYI:APA91bEWI5-RWxlU_I5paf8Pzxe1Sy-YP6GhX2f8CJhvqF2AFqLx9UvLN2a25BQtsVmMCIZAL_HiFL--AjEkUrCTAQCKIwGqholYNrc6zhkbmtuRx8f2CX3Aruv7WoFdxvnv9aFkYAe7";
+	
+	public final static String AUTH_KEY_FCM_MYCONSUMER = "AAAAX0z1GxM:APA91bHTk-45MGqxWZPLShhZo2HWUxGsb9iPg0LkRckS45oyVL4J828dzxWmCah4Sqq1MeMCx7X4JPtm2uaEPXdGYif7SCE79olTZzuEOCY51hq8ncH_5xcYrHiyBLXFoDNDhOdjMMa6";
+	
+	 http://ec2-52-15-130-228.us-east-2.compute.amazonaws.com/BusinessMiniatures/publisher/consumerappoinmentlist/{deviceID}
+	 
+	 5baf5d5e44a228049fa8393a
+	 
+	 
+	 https://www.youtube.com/watch?v=dBPV3ld1_co&list=PLUTm0foEPmPxEc5LSolwZ1zALEsEq9f1d   docker
+	 
+	 Oracle   :    https://localhost:1158/em
+
+
+
+	
