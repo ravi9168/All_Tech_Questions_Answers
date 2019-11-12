@@ -27,7 +27,7 @@ $ git remote -v
 > origin  https://github.com/user/repo.git (push)
 
 
-$ git push origin master
+$ git push origin master --force
 # Pushes the changes in your local repository up to the remote repository you spec
 
 ---------------  git push origin master --force
