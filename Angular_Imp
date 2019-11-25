@@ -1,18 +1,39 @@
  How to install bootstrap in angular 
  
-    npm install bootstrap --save
+------>npm install bootstrap --save
 	Then add depedency in styles in angular.json
 	
 	
- GIt Push 
-       git push origin master --force
-https://getbootstrap.com/docs/4.3/assets/brand/bootstrap-solid.svg
 
 
 
-npm install ngx-pagination -–save 
 
-npm install @angular/flex-layout --save
+------>npm install ngx-pagination -–save 
+
+------>npm install @angular/flex-layout --save
+
+
+------>npm install nodemon --save-dev
+
+This package restarts the server automatically every time we make a change. We’ll be installing it locally by using given below command.
+
+
+
+------>npm install body-parser --save
+------> npm install cookie-parser --save
+------>npm install multer --save
+
+
+body-parser − This is a node.js middleware for handling JSON, Raw, Text and URL encoded form data.
+
+cookie-parser − Parse Cookie header and populate req.cookies with an object keyed by the cookie names.
+
+multer − This is a node.js middleware for handling multipart/form-data.
+
+
+
+------> npm install --save body-parser cors express mongoose
+
 
 https://www.javacodegeeks.com/category/javascript/angular/page/2
 
@@ -29,4 +50,8 @@ https://tecadmin.net/tutorial/mongodb/update-document/
 db.products.insert({"prodName":"sample Produt","prodDesc":"Sample Product Desc","prodPrice": 300,"prodImage": " Sample.jpg"})
 
 https://tecadmin.net/tutorial/mongodb/query-document/
+
+ GIt Push 
+       git push origin master --force
+https://getbootstrap.com/docs/4.3/assets/brand/bootstrap-solid.svg
 

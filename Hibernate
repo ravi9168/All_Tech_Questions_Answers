@@ -1,0 +1,27 @@
+It is used to generate the unique identifier for the objects of persistent class.
+
+All the generator classes implements the org.hibernate.id.IdentifierGenerator interface.
+
+1) assigned
+It is the default generator strategy if there is no <generator> element . In this case, application assigns the id. For example:
+
+ <hibernate-mapping>  
+  <class ...>  
+    <id ...>  
+     <generator class="assigned"></generator>  
+    </id>  
+            
+    .....  
+            
+  </class>  
+ </hibernate-mapping>
+ 
+ Dialects in Hibernate
+The dialect specifies the type of database used in hibernate so that hibernate generate appropriate type of SQL statements. For connecting any hibernate application with the database, it is required to provide the configuration of SQL dialect.
+
+Syntax of SQL Dialect
+<property name="dialect">org.hibernate.dialect.Oracle9Dialect</property> 
+
+
+MySQL	org.hibernate.dialect.MySQLDialect 
+Oracle (any version)	org.hibernate.dialect.OracleDialect
