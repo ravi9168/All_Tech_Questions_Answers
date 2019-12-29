@@ -1,0 +1,10 @@
+What is OAuth2 and how it works?
+
+OAuth 2 is an authorization framework that enables applications to obtain limited access to user accounts on an HTTP service, such as Facebook, GitHub
+
+OAuth 2.0 signatures are not required for the actual API calls once the token has been generated. It has only one security token. OAuth 1.0 requires client to send two security tokens for each API call, and use both to generate the signature.
+
+OAuth stands for Open Authorization. It’s a free and open protocol, built on IETF standards and licenses from the Open Web Foundation. It allows users to share their private resources with a third party while keeping their own credentials secret. These resources could be photos, videos, contact lists, location and billing capabilities, and so on, and are usually stored with another service provider.
+
+
+https://www.youtube.com/watch?v=dTAgI_UsqMg

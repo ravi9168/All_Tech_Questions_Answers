@@ -1,0 +1,75 @@
+My Aws ravi775413awss@gmail.com
+       Ravi@9168awss
+	   
+	   
+	   Keypair   springbootaws
+	   
+	   DNS  ec2-13-126-4-116.ap-south-1.compute.amazonaws.com
+	        
+	   User:   ec2-user
+	   pass    ravi
+	   
+	   
+	   Users with AWS Management Console access can sign-in at: https://651439908016.signin.aws.amazon.com/console
+	   
+	   user      Ravi_Dev
+	   Password Ravi_Dev
+	   
+	   
+	   
+	   To show list of java packages in linix
+	   sudo yum list | grep java-1.8
+	   
+	   To instal java 1.8 in linix
+	   sudo yum install java-1.8.0-openjdk-devel.x86_64
+	   
+	   
+	   To pointing to jdk 8
+	   
+	   $ sudo update-alternatives --config java
+
+		There are 2 programs which provide 'java'.
+
+		  Selection    Command
+		-----------------------------------------------
+		*+ 1           /usr/lib/jvm/jre-1.7.0-openjdk.x86_64/bin/java
+		   2           /usr/lib/jvm/jre-1.8.0-openjdk.x86_64/bin/java
+
+		Enter to keep the current selection[+], or type selection number: 2
+
+	   
+	   
+	Set a password for user. The example below uses ec2-user as the user:
+		$ sudo passwd ec2-user
+		Changing password for user ec2-user.
+		New password:
+		Retype new password:
+		
+	Update the PasswordAuthentication parameter in the /etc/ssh/sshd_config file:
+		PasswordAuthentication yes
+		4.    Restart the SSH service.
+
+		For Amazon Linux, RHEL 5, and SUSE Linux, use this command:
+		sudo service sshd restart
+		For Ubuntu, use this command:
+		sudo service ssh restart
+		5.    Exit the SSH client, and then log in to test the password authentication.
+
+      To give permisins
+	  sudo chmod 755 -R /opt/maven
+	  
+	  To unzip folder
+	  
+	  sudo unzip filename -d location
+	  
+	 sudo unzip  apache-maven-3.0.5-bin.zip  -d /opt/maven
+
+	  To install Git in linux
+      sudo yum install git -y
+
+	  
+	   
+	   To update ubuntu
+	      sudo apt update
+	   To install default jre
+          sudo apt-get install default-jre	   

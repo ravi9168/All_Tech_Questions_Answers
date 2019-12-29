@@ -1,0 +1,36 @@
+
+JPA is the Java Persistence API, which is Java's standard API for object-relational mapping.
+
+ JPA is only an specification - you need an implementation of it to be able to use it. Hibernate is one of the most well-known and most used implementations of JPA, but there are others, such as EclipseLink JPA.
+ 
+ The Spring Framework is a large framework to help you write enterprise-grade software easier. It contains support for many Java technologies, including JPA.
+
+ The Spring Framework consists of a collection of projects, and one of these projects is Spring Data.
+ 
+ The goal of Spring Data is to make it easier to work with different kinds of databases, from traditional relational databases to NoSQL databases. Spring Data supports JPA via the Spring Data JPA subproject.
+ 
+ To write a program that uses JPA, you need at least a JPA implementation, such as Hibernate.
+
+ If you are using the Spring Framework for your application, you will most likely want to use Spring Data JPA together with Hibernate.
+
+
+
+ ---->Spring Data JPA is part of the umbrella Spring Data project that makes it easier to implement JPA based repositories.
+ 
+      Features:
+
+		Sophisticated support to build repositories based on Spring and JPA
+		Support for QueryDSL predicates and thus type-safe JPA queries
+		Transparent auditing of domain class
+		Pagination support, dynamic query execution, ability to integrate custom data access code
+		Validation of @Query annotated queries at bootstrap time
+		Support for XML based entity mapping
+		JavaConfig based repository configuration by introducing @EnableJpaRepositories
+		
+   Basic annotation maping in Entity file. Java class to Table mapping with multiple types of data for fields to member variable.
+
+	@Id - Jpa annoation used to specify a member variable as primary key.
+	@Basic - All members are fields of the specify table. @Basic used to specify manually a member variable is field of the table.
+	@Transient - Transient fields are object level fields not persist in the table.
+	@Lob - Large Object fields are blob and clob.
+	@Temporal - Temporal used to specify date object should persist date, time or datetime as value.		

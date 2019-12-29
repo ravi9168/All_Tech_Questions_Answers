@@ -102,4 +102,7 @@ clear ---> clean history
   Looking in your Git configuration file
   
   
+  http://www.appsdeveloperblog.com/git-cheat-sheet-tips-and-best-practices/
+  
+  
   

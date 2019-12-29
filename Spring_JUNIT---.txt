@@ -1,0 +1,103 @@
+https://spring.io/blog/2016/04/15/testing-improvements-in-spring-boot-1-4 
+
+With Spring Boot 1.4, things should get simpler. There is a single @SpringBootTest annotation to use for regular tests
+
+@RunWith(SpringRunner.class)
+@SpringBootTest(webEnvironment=WebEnvironment.RANDOM_PORT)
+public class MyTest {
+
+    // ...
+    
+}
+
+
+---> @RunWith(SpringRunner.class) tells JUnit to run using Spring’s testing support.
+      SpringRunner is the new name for SpringJUnit4ClassRunner, it’s just a bit easier read
+	  
+----> @SpringBootTest is saying “bootstrap with Spring Boot’s support” 
+      (e.g. load application.properties and give me all the Spring Boot goodness	
+
+-----> The webEnvironment attribute allows specific “web environments” to be configured for the test. 
+       You can start tests with a MOCK servlet environment or with a real HTTP server running on either a RANDOM_PORT or a DEFINED_PORT.	  
+	  
+	  
+	 
+	 
+Testing the JPA slice
+
+                To test the JPA slice of your application (Hibernate + Spring Data) you can use the @DataJpaTest annotation.
+				A @DataJpaTest will:
+
+				Configure an in-memory database.
+				Auto-configure Hibernate, Spring Data and the DataSource.
+				Perform an @EntityScan.
+				Turn on SQL logging
+				
+				
+				@RunWith(SpringRunner.class)
+				@DataJpaTest
+				public class UserRepositoryTests {
+
+					@Autowired
+					private TestEntityManager entityManager;
+
+					@Autowired
+					private UserRepository repository;
+
+					@Test
+					public void findByUsernameShouldReturnUser() {
+						this.entityManager.persist(new User("sboot", "123"));
+						User user = this.repository.findByUsername("sboot");
+						
+						assertThat(user.getUsername()).isEqualTo("sboot");
+						assertThat(user.getVin()).isEqualTo("123");
+					}
+
+				}
+				
+				The TestEntityManager in the above test is provided by Spring Boot. It’s an alternative to the standard JPA EntityManager that provides methods commonly used when writing tests.
+				
+				
+Testing the Spring MVC slice
+				To test the Spring MVC slice of your application you can use the @WebMvcTest annotation. This will:
+
+				Auto-configure Spring MVC, Jackson, Gson, Message converters etc.
+				Load relevant components (@Controller, @RestController, @JsonComponent etc)
+				Configure MockMVC	
+
+
+                @RunWith(SpringRunner.class)
+				@WebMvcTest(UserVehicleController.class)
+				public class UserVehicleControllerTests {
+
+					@Autowired
+					private MockMvc mvc;
+
+					@MockBean
+					private UserVehicleService userVehicleService;
+
+					@Test
+					public void getVehicleShouldReturnMakeAndModel() {
+						given(this.userVehicleService.getVehicleDetails("sboot"))
+							.willReturn(new VehicleDetails("Honda", "Civic"));
+
+						this.mvc.perform(get("/sboot/vehicle")
+							.accept(MediaType.TEXT_PLAIN))
+							.andExpect(status().isOk())
+							.andExpect(content().string("Honda Civic"));
+					}
+
+				}
+
+
+Testing the JSON slice
+				If you need to test that JSON serialization is working as expected, you can use @JsonTest. This will:
+
+				Auto-configure Jackson and/or Gson
+				Add any Module or @JsonComponent beans that you’ve defined
+				Trigger initialization of any JacksonTester or GsonTester fields	
+
+
+
+
+https://howtodoinjava.com/spring-boot2/testing/testing-support/				

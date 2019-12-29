@@ -1,0 +1,36 @@
+sudo wget -O /etc/yum.repos.d/jenkins.repo https://pkg.jenkins.io/redhat-stable/jenkins.repo
+sudo rpm --import https://pkg.jenkins.io/redhat-stable/jenkins.io.key
+
+
+sudo service jenkins start   // To start jenkins
+Starting Jenkins 
+
+
+To use aws public ip and port 8080  to access jenkins in browser 
+
+http://13.126.4.116:8080/login
+
+Then it shows unlock jenkins 
+
+
+To  unlock jenkins Password                                  
+
+$ sudo cat /var/lib/jenkins/secrets/initialAdminPassword
+428d4600818b4b88ba055be660718511   // Initial password , it works only first time
+
+
+Jenkins url http://13.126.4.116:8080/
+
+
+To start automatically on system reboot
+
+sudo chkconfig jenkins on
+
+To install Maven 
+
+
+http://mirror.olnevhost.net/pub/apache/maven/binaries/apache-maven-3.0.5-bin.tar.gz
+
+
+UserName  Ravi
+Password  Ravi@9168
