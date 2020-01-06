@@ -12,16 +12,19 @@ My Aws ravi775413awss@gmail.com
 	   
 	   Users with AWS Management Console access can sign-in at: https://651439908016.signin.aws.amazon.com/console
 	   
-	   user      Ravi_Dev
-	   Password Ravi_Dev
+	   user      Ravi_Dev987
+	   Password  
 	   
 	   
 	   
-	   To show list of java packages in linix
+	   To show list of java packages in linux
 	   sudo yum list | grep java-1.8
 	   
-	   To instal java 1.8 in linix
+	   To instal java 1.8 in linux
 	   sudo yum install java-1.8.0-openjdk-devel.x86_64
+	   
+	   To instal java 1.8 in linux using wget
+       udo wget -c --header "Cookie: oraclelicense=accept-securebackup-cookie" http://download.oracle.com/otn-pub/java/jdk/8u131-b11/d54c1d3a095b4ff2b6607d096fa80163/jdk-8u131-linux-x64.rpm
 	   
 	   
 	   To pointing to jdk 8
@@ -37,6 +40,15 @@ My Aws ravi775413awss@gmail.com
 
 		Enter to keep the current selection[+], or type selection number: 2
 
+	   
+	   To download apache tomcat in linux
+	   
+	   sudo wget  http://mirrors.estointernet.in/apache/tomcat/tomcat-8/v8.5.50/bin/apache-tomcat-8.5.50.tar.gz
+
+	   
+	   To install apache tomcat in linux (it is tar file )
+	   
+	   sudo tar xvfz apache-tomcat-8.5.50.tar.gz 
 	   
 	   
 	Set a password for user. The example below uses ec2-user as the user:
@@ -66,6 +78,11 @@ My Aws ravi775413awss@gmail.com
 
 	  To install Git in linux
       sudo yum install git -y
+	  
+	  
+	  To get all 10MB files list
+	  
+	  sudo find / -type f -size +10M -exec ls -lh {} \;
 
 	  
 	   

@@ -6,9 +6,9 @@
 
 4)  ls -ltr
 
-5)  sudo mv BusinessMiniatures.war /home/ec2-user/oldWars/BusinessMiniatures_20181120
+5)  sudo mv BusinessMiniatures.war /home/ec2-user/oldWars/BusinessMiniatures_20191228
 
-6)  sudo rm -fr  BusinessMiniatures   --- > For Delete  BusinessMiniatures folder
+6)  sudo rm -fr  BusinessMiniature   --- > For Delete  BusinessMiniatures folder
 
 7)  sudo cp /home/ec2-user/BusinessMiniatures.war .
 
@@ -17,6 +17,11 @@
 9) sudo tail -f /var/log/tomcat8/catalina.out
 
 
+BM url http://ec2-52-15-130-228.us-east-2.compute.amazonaws.com/
 
+user  ec2-user
 
 https://www.youtube.com/watch?v=TB8FtMergyc
+
+
+sudo mv BusinessMiniatures.war /home/ec2-user/oldWars/BusinessMiniatures_20191228
