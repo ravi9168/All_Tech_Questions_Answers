@@ -1,0 +1,9 @@
+
+
+https://stackoverflow.com/questions/36663038/spring-thymeleaf-header-and-footer-dynamic-includes
+
+https://github.com/sanaulla123/samples/tree/master/thymeleaf-layout-dialect-boot
+
+https://dzone.com/articles/spring-boot-thymeleaf-template-decorator-using-thy
+
+https://github.com/eugenp/tutorials/tree/master/spring-thymeleaf ------------------

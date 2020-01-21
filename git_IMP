@@ -31,3 +31,10 @@ $ git push origin master --force
 # Pushes the changes in your local repository up to the remote repository you spec
 
 ---------------  git push origin master --force
+
+
+
+-----------git error: failed to push some refs to
+
+git pull --rebase origin master
+git push origin master

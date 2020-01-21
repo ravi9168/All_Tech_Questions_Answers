@@ -43,4 +43,37 @@ What is JSX
 	
 React Components	
 
+   When creating a React component, the component's name must start with an upper case letter.
+   
+   When creating a React component, the component's name must start with an upper case letter.
+
+   The component has to include the extends React.Component statement, this statement creates an inheritance to React.Component, and gives your component access to React.Component's functions.
+
+   The component also requires a render() method, this method returns HTML.
+   
+   To use this component in your application, use similar syntax as normal HTML: <Car />
+   
+In ReactJS, we have mainly two types of components. They are
+
+Functional Components
+Class Components   
+   
+   
+Features of ReactJS are as following.
+
+	JSX
+	Components
+	One-way Data Binding
+	Virtual DOM
+	Simplicity
+	Performance
+	
+npm install --save axios	
+
+  Axios is an hugely popular (over 52k stars on Github) HTTP client that allows us to make GET and POST requests from the browser. Therefore, we can use Axios with React to make requests to an API, return data from the API, and then do things with that data in our React app.
+  
+To create React App using Typescript
+
+   npx create-react-app app_name --typescript
+
 
