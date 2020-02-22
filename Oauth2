@@ -7,6 +7,8 @@ OAuth 2.0 signatures are not required for the actual API calls once the token ha
 OAuth stands for Open Authorization. It’s a free and open protocol, built on IETF standards and licenses from the Open Web Foundation. It allows users to share their private resources with a third party while keeping their own credentials secret. These resources could be photos, videos, contact lists, location and billing capabilities, and so on, and are usually stored with another service provider.
 
 
+https://hellokoding.com/spring-boot-tutorial-series/ All Series ----
+
 https://projects.spring.io/spring-security-oauth/docs/oauth2.html   --- very good 
 
 https://docs.spring.io/spring-security-oauth2-boot/docs/current/reference/htmlsingle/#oauth2-boot-authorization-server-password-grant-authentication-manager
@@ -18,6 +20,11 @@ https://docs.spring.io/spring-security/site/docs/current/reference/html5/#oauth2
 https://docs.spring.io/spring-security/site/docs/current/reference/htmlsingle/#spring-security-oauth2-client
 
 https://github.com/spring-projects/spring-security-oauth/blob/master/spring-security-oauth2/src/test/resources/schema.sql  ----  Tables
+
+
+https://medium.com/@bcarunmail/accessing-secure-rest-api-using-spring-oauth2resttemplate-ef18377e2e05 __Microservices  -----
+
+https://github.com/spring-projects/spring-security-oauth2-boot ---> Spring boot developer 
 
 
 
@@ -34,6 +41,74 @@ https://github.com/spring-projects/spring-security/tree/5.2.1.RELEASE/samples/bo
 
 
 https://developer.github.com/v3/repos/#create
+
+
+
+https://github.com/krish/microservices-course-on-youtube/blob/master/video_009-authorization-server-with-mysql/authorization-server/src/main/java/com/krishantha/rentcloud/authorizationserver/AuthorizationServerApplication.java
+
+
+
+https://www.devglan.com/spring-security/spring-security-oauth2-user-registration
+
+https://docs.spring.io/spring-security/site/docs/5.0.5.RELEASE/reference/html/oauth2login-advanced.html
+
+https://www.devglan.com/spring-security/spring-security-oauth2-user-registration
+
+https://acuityscheduling.com/oauth2/register#
+
+
+https://github.com/spring-projects/spring-security-oauth/tree/master/spring-security-oauth2
+
+
+
+
+---  
+
+https://www.devglan.com/spring-security/spring-boot-oauth2-jwt-example
+
+https://www.toptal.com/spring/spring-boot-oauth2-jwt-rest-protection
+
+https://blog.marcosbarbero.com/centralized-authorization-jwt-spring-boot2/  ---- good refererence for tables and jwt 
+
+
+https://medium.com/@ChamithKodikara/jwt-oauth2-authentication-example-with-spring-boot-2-2e92bacd68e5
+
+https://github.com/dzinot/spring-boot-2-oauth2-authorization-jwt/blob/master/src/main/java/com/kristijangeorgiev/auth/configuration/OAuth2Configuration.java  --- usefull
+
+
+https://www.devglan.com/spring-security/spring-security-oauth2-user-registration  --- user registation
+
+https://www.devglan.com/tutorials/spring-security-tutorial?baseUrl=https%3A%2F%2Fwww.devglan.com%2F
+
+
+https://stackoverflow.com/questions/49258766/spring-boot-2-0-x-disable-security-for-certain-profile
+
+https://stackoverflow.com/questions/48090555/disabling-authentication-in-oauth2-enabled-boot-application
+
+http://websystique.com/spring-security/spring-security-4-method-security-using-preauthorize-postauthorize-secured-el/
+
+https://medium.com/@bvulaj/mapping-your-users-and-roles-with-spring-boot-oauth2-a7ac3bbe8e7f
+
+
+https://www.tutorialspoint.com/spring_boot/spring_boot_oauth2_with_jwt.htm 
+
+https://www.callicoder.com/spring-boot-spring-security-jwt-mysql-react-app-part-2/ -------  JWT only
+
+
+https://stackoverflow.com/questions/42822875/springboot-1-5-x-security-oauth2      ----security.oauth2.resource.filter-order
+
+https://github.com/talk2amareswaran/springboot-oauth2-security-jwt-mysql-bootstrap4-jquery/blob/master/authorization-server/src/main/java/com/talk2amareswaran/projects/authorizationserver/SimpleCorsFilter.java
+
+
+https://www.toptal.com/spring
+
+
+-----------------------------------------------------
+
+http://localhost:9090/authserver/oauth/token
+
+
+http://localhost:9090/authserver/oauth/check_token?token=eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJhdWQiOlsiVVNFUl9DTElFTlRfUkVTT1VSQ0UiLCJVU0VSX0FETUlOX1JFU09VUkNFIl0sInVzZXJfbmFtZSI6Ik1HaHNaIiwic2NvcGUiOlsicm9sZV9wYXRpZW50Il0sImV4cCI6MTU3OTk3MjYwNywiYXV0aG9yaXRpZXMiOlsicm9sZV9wYXRpZW50IiwiY2FuX3VwZGF0ZV9wYXRpZW50IiwiY2FuX3JlYWRfcGF0aWVudCJdLCJqdGkiOiJjZmEyMmRlMS0zZmU2LTQyODItOTg2Ny1mZTM2YWQ2ODVlMjgiLCJlbWFpbCI6IlNhbUBnbWFpbC5jb20iLCJjbGllbnRfaWQiOiJQQlJfQ0xJRU5UIn0.oLR2x8bTypfo2HtBGczyUOO6cAiuo0RA0QD3RhuYaZ9Fa7oBTQKNwGuCnDydm5qIai5aPemoyreHNzAen7gKjOQ1XKDfPefLacPOOWznNPwFbYJxt4mYl1O6dzidKNXm9inro7xALKSHOzTVswvHQqpRghV7C4Xz4JtJKad8pj6sUu5F_zEEUZ9IyT8OptvTvGM7JGbMeTPvuZlH9-YYa4j9PMeQWZn2-d7HJyg0LthXdjDHx7QVbtdK-l5Oa1SeadEYo3NrhmYf5WfvH563--BGi-FFBlaDxC_k-qaxERh6O3bDesT4-V0yqdVXHf0QxCCuqiQ0wvm1o-VIharMfQ
 
 
 
@@ -58,3 +133,13 @@ JSON Web Token is a method for representing claims securely between two parties 
 Grant type
 A grant is a method of acquiring an access token.
 Read more about grant types here
+
+
+
+Imp Points 
+
+AuthorizationServerConfigurerAdapter : It is responsible for generating tokens specific to a client.
+
+JwtAccessTokenConverter  : It is the helper that translates between JWT encoded token values and OAuth authentication information.
+
+AuthorizationServerEndpointsConfigurer : It defines the authorization and token endpoints and the token services.
