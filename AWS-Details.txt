@@ -4,9 +4,9 @@ My Aws ravi775413awss@gmail.com
 	   
 	   Keypair   springbootaws
 	   
-	   DNS  ec2-13-126-4-116.ap-south-1.compute.amazonaws.com
+	   DNS  ec2-54-183-77-123.us-west-1.compute.amazonaws.com
 	        
-	   User:   ec2-user
+	   User:   ubuntu
 	   pass    ravi
 	   
 	   
@@ -44,6 +44,8 @@ My Aws ravi775413awss@gmail.com
 	   To download apache tomcat in linux
 	   
 	   sudo wget  http://mirrors.estointernet.in/apache/tomcat/tomcat-8/v8.5.50/bin/apache-tomcat-8.5.50.tar.gz
+	   
+	  
 
 	   
 	   To install apache tomcat in linux (it is tar file )
@@ -89,4 +91,27 @@ My Aws ravi775413awss@gmail.com
 	   To update ubuntu
 	      sudo apt update
 	   To install default jre
-          sudo apt-get install default-jre	   
+          sudo apt-get install default-jre	
+        https://stackoverflow.com/questions/10268583/downloading-java-jdk-on-linux-via-wget-is-shown-license-page-instead
+		
+		
+		
+		
+	    ssudo wget https://download.oracle.com/otn/java/jdk/8u241-b07/1f5b5a70bf22433b84d0e960903adac8/jdk-8u241-linux-x64.rpm?AuthParam=1583867153_ea1f8bfc2271633abd9060848d227d1a
+	
+	    sudo tar xvfz jdk-8-linux-x64.tar.gz
+		
+		sudo rpm -i jdk-8u241-linux-x64.rpm
+		
+		sudo chmod 777 -R java/jdk1.8-1.8.0_241
+		
+		sudo apt-get update
+        sudo apt-get install openjdk-8-jdk
+		
+		https://www.digitalocean.com/community/tutorials/install-tomcat-9-ubuntu-1804
+
+
+
+	
+
+     

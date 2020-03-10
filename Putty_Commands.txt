@@ -2,13 +2,13 @@
 
 2) sudo service tomcat8 stop
 
-3) cd /var/lib/tomcat8/webapps/
+3) cd /var/lib/tomcat8/webapps/
 
 4)  ls -ltr
 
 5)  sudo mv BusinessMiniatures.war /home/ec2-user/oldWars/BusinessMiniatures_20191228
 
-6)  sudo rm -fr  BusinessMiniature   --- > For Delete  BusinessMiniatures folder
+6)  sudo rm -fr  BusinessMiniatures   --- > For Delete  BusinessMiniatures folder
 
 7)  sudo cp /home/ec2-user/BusinessMiniatures.war .
 
